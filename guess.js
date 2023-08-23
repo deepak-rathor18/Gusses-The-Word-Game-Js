@@ -5,7 +5,7 @@ const btn=document.querySelector('.btn');
 let play=false;
 let newWords="";
 let randWords="";
-let sWords=['python','javascript','c++','php','java','c#','html','css','reactjs','mongodb','github','angular','android','sql','ruby','nodejs','expressjs','postman','google','mobile','before','after','better','placement','oncampus','offcampus']
+let sWords=['python','javascript','c++','php','java','c#','html','css','reactjs','mongodb','github','angular','android','sql','ruby','nodejs','expressjs','postman','google','kotlin','swift']
 
 const createNewWords=()=>{
     let runNum = Math.floor(Math.random() * sWords.length);
